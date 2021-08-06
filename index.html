@@ -2,12 +2,48 @@
 <html lang="en">
 
 <head>
+
+  <script>
+    window.onload=function(){
+      document.getElementById('loader').style.display="none";
+      document.getElementById('content').style.display="block";
+
+
+    };
+
+
+  </script>
+
+  <style>
+    #content{display:none;}
+    #contentainer img{width:100%;}
+    #loader{
+      display: grid;
+      place-items: center;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 200px;
+      height: 200;
+}
+
+  #loader img{width:200px;}
+
+
+  </style>
+
+
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>CodeWithNikhil Portfolio</title>
-  <meta content="" name="description" content="">
+  <meta content="" name="description" content="“Hey, I am Nikhil Bhagat & I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive toward. I'm not comfortable with settling, and I'm always looking for an opportunity to do better and achieve greatness.Over 2+ years of IT Experience in design, development, testing and implementation of various stand - alone and client-server architecture based enterprise application software in Python on different domains. 1+ years of experience as Full stack developer android developer.">
   <meta content="" name="keywords" content= "Android Developer, Django Developer, Flutter Developer, Web Developer, Java junior Developer">
+  <meta name="author" content="Nikhil Bhagat"
   <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
 
   <!-- Google Fonts -->
@@ -29,6 +65,16 @@
 </head>
 
 <body>
+
+  <div id="loader">
+
+    <img src="https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif" alt="Nikhil">
+
+
+  </div>
+
+  <div id="content">
+
 
   <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -523,7 +569,7 @@
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
               Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-              quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.quem eram duis.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
             <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -551,7 +597,7 @@
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
             <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
+            <h3>Raman Subedi</h3>
             <h4>Store Owner</h4>
           </div>
 
@@ -695,6 +741,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+</div>
 
 </body>
 
